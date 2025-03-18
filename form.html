@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>FORM</title>
+        <style>
+            div{
+                padding-bottom: 20px;
+                text-align: center;
+            }
+            .a{
+                margin-left: 500px;
+                width: 500px;
+               background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6xnmeT0hxYpRMK1ag1jCK3sEpTMk7PSKnMA&s);
+               background-repeat: no-repeat;  
+               background-size: cover;
+               border: solid 1px black;
+               border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="a">
+            <h3 align="center">FORM</h3>
+            <div>
+                <label for="fname">First Name :</label>
+                <input type="text" id="fname" placeholder="enter first name" required>
+            </div>
+            <div>
+                <label for="lname">Last Name :</label>
+                <input type="text" id="lname" placeholder="enter last name">
+            </div>
+            <div>
+                <label for="mail">Email :</label>
+                <input type="email" id="mail" placeholder="enter your email id" required>
+            </div>
+            <div>
+                <label for="password">password :</label>
+                <input type="password" id="password" placeholder="enter password" required>
+            </div>
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" id="age" placeholder="enter your age" min="18" max="60" required>
+            </div>
+            <div>
+                <label for="dob">Date Of Birth :</label>
+                <input type="date" id="dob">
+            </div>
+            <div>
+                <label for="gender">Gender :</label>
+                <input type="radio" id="gender" value="gender" name="gender">Male
+                <input type="radio" id="gender" value="gender" name="gender">Female
+                <input type="radio" id="gender" value="gender" name="gender">Others
+            </div>
+            <div>
+                <label for="hobbies">Hobbies :</label>
+                <input type="checkbox" id="hobbies">Playing
+                <input type="checkbox" id="hobbies">Reading
+                <input type="checkbox" id="hobbies">Singing
+            </div>
+            <div>
+                <label for="file">Upload Your Resume :</label>
+                <input type="file">
+            </div>
+            <div>
+                <button type="reset"> Reset</button>
+            </div>
+            <div>
+                <button type="submit"> Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
