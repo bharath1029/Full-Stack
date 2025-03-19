@@ -1,0 +1,102 @@
+.t {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 0px;
+}
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+
+.frame{
+    border: solid 1px black;
+    width: 950px;
+    height: 1300px;
+   margin-left: 300px;
+}
+.col1{
+    border: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+
+}
+.contact{
+    text-align: center;
+    padding-top: 1px;
+}
+
+.details {
+line-height: 0.8;
+padding-left: 20px;
+margin-right: 20px;
+margin-left: 25px;
+border: solid 1px rgb(8, 8, 8);
+display: flex;
+align-items: center;
+background: white;
+border-radius: 10px;
+width: 890px;
+font-size: 20px;
+}
+
+.career-objective {
+    display: flex;
+    align-items: center; 
+    border: 2px solid white; 
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 800px; 
+}
+.pic {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    margin-right: 15px; 
+}
+.career-objective-box {
+    flex: 1; 
+}
+
+.career-objective-box h2 {
+    margin: 0; 
+    text-align: left;
+}
+
+.col1{
+    border: solid 1px black;
+    border-radius: 4px;
+    margin: 5px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: #007BFF;
+}
+.col2{
+    border: solid 1px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-shadow: #007BFF;
+}
+.bio{
+    line-height: 0.6;
+}
