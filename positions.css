@@ -1,0 +1,90 @@
+.button{
+    border: solid black 1px;
+    outline: none;
+}
+.button:hover{
+    border-radius: 10px;
+    border-color: red;
+}
+input:hover{
+    border-radius: 10px;
+    border-color: blue;
+}
+
+p::first-letter{
+    color: red;
+}
+p::before{
+    content: "";
+}
+p::after {
+content: "";
+}
+.paragraph::first-letter{
+    color: red;
+    
+}
+.paragraph::first-line{
+    color: blue;
+}
+.paragraph::last-line{
+    color: green;
+}
+.paragraph{
+    position: relative;
+    bottom: 100px;
+  border: solid 1px black;
+  z-index: 1;
+}
+
+.container{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    background-color: beige;
+    z-index: 0;
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 450px;
+    gap: 50px;
+}
+
+.header{
+    text-align: left;
+    color: blue;
+    padding-left: 25px;
+    padding-top: 20px;
+   
+}
+.cardparagraph{
+    position: relative;
+    color: black;
+    display: flex;
+    text-align: start;
+    width: 400px;
+    font-size: medium;
+    padding: 10px;
+}
+.img{ 
+    position: absolute;
+    top:-40px;
+    right: 20px;
+    z-index: 1;
+    border-radius: 10px; 
+      width: 120px;
+    height: 120px;
+
+}
+.wi{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;  
+}
+

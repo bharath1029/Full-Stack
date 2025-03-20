@@ -100,3 +100,24 @@ font-size: 20px;
 .bio{
     line-height: 0.6;
 }
+.declaration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 1px;
+    border-radius: 5px;
+    box-shadow: #007BFF;
+    margin: 10px;
+}
+
+<div class="main-container">
+        <h1 class="heading1">
+1
+        </h1>
+        <h1 class="heading2">
+2
+        </h1>
+        <h1 class="heading3">
+3
+        </h1>
+    </div>

@@ -1,0 +1,41 @@
+.button{
+    border: solid black 1px;
+    outline: none;
+}
+.button:hover{
+    border-radius: 10px;
+    border-color: red;
+}
+input:hover{
+    border-radius: 10px;
+    border-color: blue;
+    width: 200px;
+    height: 40px;
+}
+
+
+.paragraph::first-letter{
+    color: red;
+    
+}
+.paragraph::first-line{
+    color: blue;
+}
+.paragraph::last-line{
+    color: green;
+}
+
+p:first-child {
+    color: blue; important
+}
+
+p:nth-child(odd) {
+    color: red;
+}
+p:first-child {
+    color: blue;
+}
+.paragraph::first-line{
+    color: green; important 
+}
+
